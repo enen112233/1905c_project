@@ -6,3 +6,8 @@ def index(response):
 
 def login(request):
     return redirect("/index")
+
+def reg(request):
+    return HttpResponse("reg")
+
+
